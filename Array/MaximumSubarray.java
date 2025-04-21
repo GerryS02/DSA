@@ -31,7 +31,6 @@ public class MaximumSubarray {
     }
 
     public static void main(String[] args) {
-        MaximumSubarray outer = new MaximumSubarray();
         Solution solution = new Solution();
 
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
