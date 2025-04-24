@@ -1,4 +1,5 @@
 package DSA.Array;
+import java.util.Arrays;
 
 public class MergeSortedArrays {
 
@@ -36,7 +37,7 @@ public class MergeSortedArrays {
 
         solution.merge(nums1, m, nums2, n);
 
-        System.out.println("Merged array: " + java.util.Arrays.toString(nums1));
+        System.out.println("Merged array: " + Arrays.toString(nums1));
         
         
     }
