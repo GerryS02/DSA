@@ -19,7 +19,7 @@ public class numSubarrayBoundedMax {
                 count += curr;
             }
             return count;
-        }
+        }    
     }
 
     public static void main(String[] args){
