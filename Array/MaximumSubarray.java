@@ -1,4 +1,4 @@
-package DSA.Array;
+package Array;
 
 // find the maximum sum of a subarray using Kadane's algorithm
 

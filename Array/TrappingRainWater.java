@@ -1,4 +1,4 @@
-package DSA.Array;
+package Array;
 
 public class TrappingRainWater {
     public static class Solution{

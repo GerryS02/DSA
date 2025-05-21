@@ -1,4 +1,4 @@
-package DSA.Array;
+package Array;
 
 // Longest Continuous Incresting Subarray
 

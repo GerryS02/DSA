@@ -1,4 +1,4 @@
-package DSA.Array;
+package Array;
 
 public class MaximumProductSubarray {
     public static class Solution{

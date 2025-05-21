@@ -1,4 +1,4 @@
-package DSA.Array;
+package Array;
 
 public class MajorityElement {
     public static class Solution{

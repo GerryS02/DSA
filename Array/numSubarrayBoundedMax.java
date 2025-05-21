@@ -1,4 +1,4 @@
-package DSA.Array;
+package Array;
 
 public class numSubarrayBoundedMax {
     public static class Solution{

@@ -1,4 +1,4 @@
-package DSA.TwoPointers;
+package TwoPointers;
 
 public class ContainerWithMostWater {
     public static class Solution{

@@ -1,4 +1,4 @@
-package DSA.String;
+package String;
 
 public class ReverseString {
     public static class Solution{

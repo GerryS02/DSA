@@ -1,4 +1,4 @@
-package DSA.Array;
+package Array;
 
 public class MaxChunksToMakeSorted2 {
     public static class Solution{
