@@ -1,10 +1,15 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Random;
+
 class Randomizedset {
     // use hashmap to store values and their indices in the list
     HashMap<Integer, Integer> m;
     List<Integer> list;
     Random r;
 
-    public RandomizedSet(){
+    public Randomizedset(){
         m = new HashMap<>();
         list = new ArrayList<>();
         r = new Random();
