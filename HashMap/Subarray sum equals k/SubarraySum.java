@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-class Solution{
+class SubarraySum{
     public int subarraySum(int[] arr, int k){
         int n = arr.length;
         int count = 0;
