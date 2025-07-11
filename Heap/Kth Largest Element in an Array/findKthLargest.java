@@ -1,6 +1,6 @@
 import java.util.PriorityQueue;
 
-class Solution{
+class findKthLargest{
     public int findKthLargest(int[] arr, int k){
         //heap to store the k largest elements
         PriorityQueue<Integer> pq = new PriorityQueue<>();
@@ -21,7 +21,7 @@ class Solution{
     }
 
     public static void main(String[] args){
-        Solution sol = new Solution();
+        findKthLargest sol = new findKthLargest();
 
         int[] arr = {3,2,1,5,6,4};
         int k = 3;
