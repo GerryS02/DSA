@@ -2,8 +2,8 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class MedianFinder {
-    PriorityQueue<Integer> left;  //max-heap -> to store the smallest set of values
-    PriorityQueue<Integer> right;  //min-heap -> to store the largest half od values
+    PriorityQueue<Integer> left;  //max-heap -> to store the smallest set of values, gives priority to the max element
+    PriorityQueue<Integer> right;  //min-heap -> to store the largest half od values, gives priority to the smallest element
 
     public MedianFinder(){
         //initalize the max-heap using reverse order comparator
@@ -22,10 +22,10 @@ public class MedianFinder {
 
         //if left heap has 2 more elements, move the largest element from left to right
         if(left.size() - right.size() == 2){
-            right.add(val);
+            right.add(left.remove());
         } else if(right.size() - left.size() == 2){
             //if right heap has 2 more elements, move the largest element from right to left
-            left.add(val);
+            left.add(right.remove());
         }
     }
 
