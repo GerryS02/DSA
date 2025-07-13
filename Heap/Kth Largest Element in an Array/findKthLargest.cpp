@@ -5,7 +5,7 @@ using namespace std;
 
 class Solution{
 public:
-    int finfKthLargest(int[] arr, int k){
+    int finfKthLargest(vector<int>& arr, int k){
         //make a  (min-heap) priority queue where smallest element is at the top
         priority_queue<int, vector<int>, greater<int>> pq;
 
@@ -27,7 +27,7 @@ public:
     int main(){
         Solution sol;
 
-        int[] arr = {3,2,1,5,6,4};
+        vector<int> arr = {3,2,1,5,6,4};
         int k = 3;
 
         int ans = sol.finfKthLargest(arr, k);
