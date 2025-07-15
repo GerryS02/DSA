@@ -41,18 +41,20 @@ public:
     }
 
     bool isPossible(vector<int>& arr, int mid, int days){
-        int day = 1;
-        int sum = 0;
+        int day = 1; //start with 1 day, because we need at least one day to ship items
+        int sum = 0; //variable to track the total weight on the current day
 
         for(int i=0; i<arr.size(); i++){
-            sum += arr[i];
+            sum += arr[i]; //add the current item's weight to the sum
 
+            //if adding the current item exceeds the ship's capacity ('mid'), start a new day
             if(sum > mid){
                 day++;
-                sum = arr[i];
+                sum = arr[i]; //start the new day with the current item
             }
         }
 
+        //return true if the number of days used is less than or equal to the allowed 'days'
         return day <= days;
     }
 };
