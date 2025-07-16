@@ -1,0 +1,5 @@
+Given are 'n' boards of length of each given in form of an array, and 'm' painters, such
+that each painter takes 't' unit of time to paint i unit of board.
+
+Find the minimum time to paint to paint all boards under the constraints that any painter
+will only paint in continuous sections of board.
